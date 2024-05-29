@@ -227,7 +227,7 @@ img {
 
 .sidebars-inner_wrapper {
     position: absolute;
-    height: calc(138% + 5px);
+    height: calc(134% + 8px);
     border-bottom: none;
 }
 .sidebar__header {
@@ -1200,7 +1200,7 @@ tbody :last-child {
     color: #FFD762;
     background-color: #3F0437;
     width: 280px;
-    min-height: 308px;
+    min-height: 320px;
     border: 1px solid #FFD762;
     border-radius: 5px;
     -webkit-box-shadow: -9px -2px 33px -4px rgba(213, 213, 42, 0.72);
@@ -1211,6 +1211,7 @@ tbody :last-child {
     margin-top: 10px;
     font-size: 21px;
     text-align: center;
+    margin-bottom: 10px;
 }
 .players-game {
     text-transform: uppercase;
@@ -1289,6 +1290,8 @@ tbody :last-child {
 .free {
     font-weight: 400;
     font-size: 26px;
+}
+.free-uppercase {
     text-transform: uppercase;
 }
 .players {
@@ -1297,6 +1300,7 @@ tbody :last-child {
     font-family: 'Gordita';
     margin-top: 10px;
     margin-bottom: 10px;
+    color: #FEFFAB;
 }
 .big-divider, .small-divider {
     margin-bottom: 5px;
@@ -1318,6 +1322,8 @@ tbody :last-child {
     font-size: 26px;
 }
 .player-amount {
+    font-family: 'Gordita';
+    margin-left: 5px;
     font-size: 12px;
     color: #fff;
 }
@@ -1354,13 +1360,40 @@ tbody :last-child {
     font-family: 'Gordita';
     margin-top: 15px;
     font-size: 12px;
+    color: #FEFFAB;
+}
+
+.joined-btn {
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 28px;
+    border: 1px solid #FFD762;
+    background-color: #610E59;
+    color: #fff;
+    font-family: 'Gordita';
+    font-size: 12px;
+    border-radius: 5px;
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.joined-btn_icon > img {
+    width: 20px;
+    height: 20px;
 }
 .card-diamond_icon {
+    padding-top: 5px;
     margin-bottom: 15px;
     display: block;
     margin: 0 auto;
     width: 120px;
     height: 36px;
+}
+
+.containers-wrapper:nth-child(2).card-diamond_icon {
+    margin-bottom: 20px;
 }
 .card-submit_btn:hover, .players-info_btn:hover {
     color: #F8D05F;
@@ -1579,6 +1612,12 @@ tbody :last-child {
 
 .right-container__join-battle_subtitle {
     color: #fff;
+}
+
+.finished {
+    font-family: 'Gordita';
+    font-size: 12px;
+    color: #FEFFAB;
 }
 
 .right-container__join-battle_search-field {
@@ -1942,4 +1981,26 @@ tbody :last-child {
 .sidebar-modal_wrapper {
     display: flex;
     width: 160px;
+}
+
+.first-column>div:nth-child(2)>.card-mod>.card-body {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.first-column>div:nth-child(3)>.card-mod>.card-body {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.second-column>div:nth-child(1)>.card-mod>.card-body {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.second-column>div:nth-child(2)>.card-mod>.card-body {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.second-column>div:nth-child(4)>.card-mod>.card-body {
+    margin-top: 40px;
+    margin-bottom: 10px;
 }
